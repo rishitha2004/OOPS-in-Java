@@ -4,6 +4,9 @@ class A{
     void showij(){
         System.out.println("i="+i+","+"j="+j);
     }
+    void msg(){
+        System.out.println("This is a msg");
+    }
 }
 
 class B extends A{
@@ -24,7 +27,7 @@ class basicinheritance{
         superOb.j=40;
         System.out.println("Contents of superOb:");
         superOb.showij();
-
+        superOb.msg();
         subOb.i=2;
         subOb.j=5;
         subOb.k=7;
